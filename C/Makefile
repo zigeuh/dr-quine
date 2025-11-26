@@ -6,4 +6,4 @@ all:
 fclean:
 	rm -rf Colleen tmp_Colleen
 	rm -rf Grace Grace_kid.c
-	rm -rf Sully Sully[0-9]*.c
+	rm -rf Sully Sully[0-9]*
