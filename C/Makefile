@@ -41,7 +41,7 @@ colleen_diff: colleen_exec
 		echo "$(GREEN)Colleen: no diff ✅$(RESET)"; \
 	else \
 		echo "$(RED)Colleen: diff found ❌$(RESET)"; \
-		diff Colleen.c tmp_Colleen.c; \
+		diff Colleen.c tmp_Colleen; \
 	fi
 
 ##############
